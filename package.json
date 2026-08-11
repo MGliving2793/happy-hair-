@@ -6,7 +6,8 @@
     "start": "npm --prefix server start",
     "dev": "npm --prefix server run dev",
     "build": "npm --prefix server run build",
-    "test": "npm --prefix server test"
+    "test": "npm --prefix server test",
+    "postinstall": "cd server && npm install && npx prisma generate"
   },
   "dependencies": {
     "express": "^5.2.1",
