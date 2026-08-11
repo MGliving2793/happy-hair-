@@ -1,0 +1,18 @@
+{
+  "name": "happy-hair-nutrition-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix server start",
+    "dev": "npm --prefix server run dev",
+    "build": "npm --prefix server run build",
+    "test": "npm --prefix server test"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mhtml-parser": "^1.0.2",
+    "mhtml2html": "^3.0.0",
+    "puppeteer": "^25.5.0",
+    "quoted-printable": "^1.0.1"
+  }
+}
